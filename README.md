@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# Cartify – React Redux Cart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple yet functional e-commerce cart application built using React and Redux Toolkit. It features add, remove, and update cart items, persistent cart state using Redux Persist, and a responsive user interface styled with SCSS.
 
-## Available Scripts
+## 🔗 Live Demo
 
-In the project directory, you can run:
+👉 [https://cartify.sauravswaraj.com](https://cartify.sauravswaraj.com)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Add/Remove/Update cart items
+* Persistent cart state with Redux Persist
+* Toast notifications for actions
+* Global state management using Redux Toolkit
+* Responsive mobile-friendly UI
+* Hosted on Vercel
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tech Stack
 
-### `npm run build`
+* React.js 18
+* Redux Toolkit
+* React Redux
+* React Router DOM
+* SCSS
+* React Hot Toast
+* React Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+><img width="1920" height="880" alt="image" src="https://github.com/user-attachments/assets/da9163c6-5afb-4417-bad3-7976c89f2293" />
+<img width="1920" height="881" alt="image" src="https://github.com/user-attachments/assets/e70e90ca-1cb3-4b8f-be57-072ce6d774bb" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Homepage
+* Cart Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Project Structure
 
-## Learn More
+```
+react-cart/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+│
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   ├── components/
+│   │   ├── Cart.jsx
+│   │   ├── Header.jsx
+│   │   └── Home.jsx
+│   ├── redux/
+│   │   ├── reducers.js
+│   │   ├── store.js
+│   ├── styles/
+│   │   ├── app.scss
+│   │   ├── cart.scss
+│   │   ├── colors.scss
+│   │   ├── header.scss
+│   │   ├── home.scss
+│   │   └── mediaquery.scss
+│   ├── assets/
+│       └── images/
+│           ├── img1.jpg
+│           └── img2.jpg
+│
+├── package-lock.json
+├── package.json
+├── README.md
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Getting Started Locally
 
-### Code Splitting
+### 1⃣ Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/sauravswarajj/react-cart.git
+cd react-cart
+```
 
-### Analyzing the Bundle Size
+### 2⃣ Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+### 3⃣ Run the Development Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+Visit: [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🌐 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Deployed on **Vercel**:
+added my Own Domain
+👉 [https://cartify.sauravswaraj.com](https://cartify.sauravswaraj.com)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributing
+
+If you'd like to contribute:
+
+1. Fork this repo
+2. Create your feature branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add YourFeature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+If you'd like help generating a version with screenshots or specific meta tags for GitHub previews, let me know!
